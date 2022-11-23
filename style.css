@@ -75,21 +75,21 @@ header{
     color: #FB5B21;
 }
 
-.nav-home{
+.nav-pages{
     transition: 0.7s;
 
 }
 
-.nav-home:hover{
+.nav-pages:hover{
     color: #FB5B21;
 }
 
-.nav-home{
+.nav-contact{
     transition: 0.7s;
 
 }
 
-.nav-home:hover{
+.nav-contact:hover{
     color: #FB5B21;
 }
 
