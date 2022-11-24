@@ -37,9 +37,14 @@ header{
     display: flex;
     gap: 30px;
     margin-top: 40px;
-    transition: 0.7s;
 }
-.nav-box2:hover{
+
+.nav-home{
+    transition: 0.7s;
+
+}
+
+.nav-home:hover{
     color: #FB5B21;
 }
 
