@@ -7,6 +7,12 @@ header{
     padding-bottom: 40px;
 
 }
+
+@font-face{
+    font-family:'road';
+    src: url(./fonts/oswald-extralight.ttf);
+}
+
 .nav-bar{
     display: flex;
     gap: 30px;
@@ -17,9 +23,10 @@ header{
     background-color: #BDBDBF;
     padding: 20px 318px 20px 40px;
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
     color: #222429;
     font-family: sans-serif;
+    font-family: road;
 }
 
 .nav-box1 span{
@@ -30,6 +37,10 @@ header{
     display: flex;
     gap: 30px;
     margin-top: 40px;
+    transition: 0.7s;
+}
+.nav-box2:hover{
+    color: #FB5B21;
 }
 
 .nav-gymster{
