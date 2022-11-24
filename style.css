@@ -57,21 +57,21 @@ header{
     color: #FB5B21;
 }
 
-.nav-home{
+.nav-classes{
     transition: 0.7s;
 
 }
 
-.nav-home:hover{
+.nav-classes:hover{
     color: #FB5B21;
 }
 
-.nav-home{
+.nav-trainers{
     transition: 0.7s;
 
 }
 
-.nav-home:hover{
+.nav-trainers:hover{
     color: #FB5B21;
 }
 
