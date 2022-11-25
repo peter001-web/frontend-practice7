@@ -1,11 +1,9 @@
 *{
     margin: 0;
+    /* border: 1px solid rebeccapurple; */
 }
 
 header{
-    background-color: #222429;
-    padding-bottom: 40px;
-
 }
 
 @font-face{
@@ -16,17 +14,20 @@ header{
 .nav-bar{
     display: flex;
     gap: 30px;
+    background-color: #222429;
+    width: 100%;
+    padding-bottom: 40px;
+
+    
 }
 
 .nav-box1{
     border: 1px solid #BDBDBF;
     background-color: #BDBDBF;
-    padding: 20px 318px 20px 40px;
+    padding: 20px 30px 20px 40px;
     width: 100%;
     font-size: 16px;
     color: #222429;
-    font-family: sans-serif;
-    font-family: road;
 }
 
 .nav-box1 span{
@@ -37,10 +38,12 @@ header{
     display: flex;
     gap: 30px;
     margin-top: 40px;
+    color: white;
 }
 
 .nav-home{
     transition: 0.7s;
+    color: #FB5B21;
 
 }
 
@@ -88,9 +91,28 @@ header{
     transition: 0.7s;
 
 }
+.ppp{
+    display: flex;
+    width: 100%;
+}
 
 .nav-contact:hover{
     color: #FB5B21;
+}
+
+.nav-join{
+    padding: 20px 50px ;
+    background-color: #FB5B21;
+    color: white;
+    margin-left: 210px;
+    font-size: 13px;
+    border: 1px solid #FB5B21;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    width: 100%;
+    text-transform: uppercase
 }
 
 
@@ -102,4 +124,129 @@ header{
     color: #FB5B21;
     margin-left: 30px;
     font-family: sans-serif;
+}
+
+.header-gym{
+    background-image: url(./images/carousel-1.jpg ) ;
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    z-index: 1;
+    padding-top: 90px;
+    padding-bottom: 10px;
+    margin-bottom: 200px;
+
+}
+
+.header-gym1{
+    margin-top: 100px;
+}
+
+.header-gym1 h2{
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+.header-gym1 h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.header-button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.header-button1{
+ background-color: #FB5B21;
+ padding: 20px 50px;
+color: white;
+font-size: 14px;
+font-family: sans-serif;
+text-transform: uppercase;
+border-radius: 5px;
+
+}
+
+.header-button2{
+    padding: 20px 50px;
+font-size: 14px;
+font-family: sans-serif;
+text-transform: uppercase;
+border-radius: 5px;
+background-color: #F6F7F9;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  ( max-width:400px ) {
+    body{
+        width: 100%;
+        position: fixed;
+    }
+
+    .nav-bar{
+        width: 100%;
+    }
+
+    .nav-gymster{
+        /* width: 100%; */
+        font-size: 9px;
+    }
+
+    .nav-box2{
+        font-size: 7px;
+        gap: 10px;
+    }
+
+    .header-gym1 h2{
+        font-size: 11px;
+    }
+    .header-gym1 h1{
+        font-size: 30px;
+    }
+
+    .header-gym{
+        background-position: 50%;
+        background-size: cover;
+    }
+
+    .nav-box1{
+      display: none;
+    }
+
+  
 }
