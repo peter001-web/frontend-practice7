@@ -1,6 +1,7 @@
 *{
     margin: 0;
     /* border: 1px solid rebeccapurple; */
+    /* padding: 0; */
 }
 
 header{
@@ -156,7 +157,8 @@ header{
 }
 .header-gym1 h1{
     text-align: center;
-    color: white;
+    /* color: white; */
+    color: #FB5B21;
     font-size: 60px;
     text-transform: uppercase;
 }
@@ -220,33 +222,107 @@ background-color: #F6F7F9;
 
     .nav-bar{
         width: 100%;
+        padding: 0;
+        display: flex;
+        gap: 0;
+        flex-direction: column;
     }
 
     .nav-gymster{
-        /* width: 100%; */
-        font-size: 9px;
+        width: 100%;
+        font-size: 20px;
+        padding: 0;
+        margin-top:20px;
+        margin-left: 5px;
     }
 
     .nav-box2{
-        font-size: 7px;
-        gap: 10px;
+        font-size: 9px;
+        margin-top: 10px;
+        gap: 8px;
+    }
+
+    .nav-join{
+        padding: 5px 5px ;
+        background-color: #FB5B21;
+        color: white;
+        font-size: 13px;
+        border: 1px solid #FB5B21;
+        cursor: pointer;
+        border-radius: 4px;
+        /* margin-top: 0; */
+        font-family: sans-serif;
+        margin-left: 5px;
+        text-align: center;
+        width: 25%;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .ppp{
+        display: flex;
+        flex-direction: column;
     }
 
     .header-gym1 h2{
         font-size: 11px;
+        /* margin-bottom: 100px; */
+        color: white;
+        text-align: none;
+        margin: 0;
+        
     }
     .header-gym1 h1{
-        font-size: 30px;
+        font-size: 25px;
+        color: white;
     }
 
     .header-gym{
         background-position: 50%;
         background-size: cover;
+        height: 100px;
+        width: 100%;
+        padding-bottom: 190px;
+        margin-bottom: 0;
+        padding-top: 10px;
+
     }
 
     .nav-box1{
       display: none;
     }
+    
+    .header-button{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        width: 60%;
+        margin-left: 70px;
+    }
+    
+
+    .header-button1{
+        background-color: #FB5B21;
+        padding: 10px 10px;
+        margin: auto;
+       color: white;
+       font-size: 11px;
+       font-family: sans-serif;
+       text-transform: uppercase;
+       border-radius: 5px;
+       cursor: pointer;
+       }
+       
+       .header-button2{
+           padding: 10px 10px;
+       font-size: 11px;
+       font-family: sans-serif;
+       text-transform: uppercase;
+       border-radius: 5px;
+       background-color: #F6F7F9;
+       cursor: pointer;
+       
+       }
 
   
 }     
