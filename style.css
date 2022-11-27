@@ -191,6 +191,76 @@ background-color: #F6F7F9;
 
 }
 
+.first-sect{
+    margin-bottom: 200px;
+}
+
+.about-gymster {
+    display: flex;
+    gap: 40px;
+    width: 95%;
+}
+
+.about-gymster img{
+    width: 600px;
+    /* height: 500px; */
+    margin-left: 50px;
+}
+
+.about-gymster h3{
+    text-transform: uppercase;
+    color: #FB5B21;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.about-gymster h2{
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #222429;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+#about-p1{
+    color: #686A6F;
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+#about-p2{
+    color: #686A6F;
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
