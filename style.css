@@ -223,7 +223,7 @@ background-color: #F6F7F9;
     margin-top: 10px;
 }
 
-/* #about-p1{
+ #about-p1{
     color: #686A6F;
     font-size: 23px;
     font-family: sans-serif;
@@ -277,9 +277,9 @@ background-color: #F6F7F9;
     padding: 10px 0px;
     border-style: none;
     color: #FB5B21;
-}
+} 
 
- */
+ 
 
 
 
@@ -461,6 +461,7 @@ background-color: #F6F7F9;
         width: 300px;
         /* display: none; */
         margin-left: 35px;
+        margin-top: 20px;
     }
 
     .about-gymster h3{
@@ -507,12 +508,14 @@ background-color: #F6F7F9;
         width: 95%;
     }
     
-    /* .about-us{
+     .about-us{
         background-color: #222429;
         color: white;
         margin: auto;
-        padding: 40px;
+        /* height: 200px; */
         margin-top: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     
     .about-h4{
@@ -521,31 +524,34 @@ background-color: #F6F7F9;
         font-family: sans-serif;
         font-weight: 400;
         display: flex;
-        justify-content: center;
+        justify-content: center ;
         gap: 50px;
     }
     
     #about-text{
         border: 1px solid #FB5B21;
         background-color: #FB5B21;
-        padding: 10px 90px;
+        padding: 10px 20px;
+        font-size: 12px;
     }
     
     .about-us p{
         color: #c8c9ca;
         line-height: 1.4em;
         font-size: 17px;
-        width: 89%;
-        padding-left: 30px;
+        width: 95%;
+        padding-left: 20px;
         padding-top: 10px;
+        font-size: 13px;
     }
     
     .whychoose-text{
         border: 1px solid ;
         padding: 10px 0px;
         border-style: none;
+        font-size: 12px;
         color: #FB5B21;
-    } */
+    } 
     
 }     
 
