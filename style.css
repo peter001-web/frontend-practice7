@@ -141,7 +141,7 @@ header{
     z-index: 1;
     padding-top: 90px;
     padding-bottom: 10px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 
 }
 
@@ -192,7 +192,7 @@ background-color: #F6F7F9;
 }
 
 .first-sect{
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }
 
 .about-gymster {
@@ -223,7 +223,7 @@ background-color: #F6F7F9;
     margin-top: 10px;
 }
 
-#about-p1{
+/* #about-p1{
     color: #686A6F;
     font-size: 23px;
     font-family: sans-serif;
@@ -233,11 +233,53 @@ background-color: #F6F7F9;
 
 #about-p2{
     color: #686A6F;
-    font-size: 23px;
     font-family: sans-serif;
+    margin-top: 10px;
+    width: 100%;
+    line-height: 1.4em;
+}
+
+.about-us{
+    background-color: #222429;
+    color: white;
+    margin: auto;
+    padding: 40px;
     margin-top: 10px;
 }
 
+.about-h4{
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#about-text{
+    border: 1px solid #FB5B21;
+    background-color: #FB5B21;
+    padding: 10px 90px;
+}
+
+.about-us p{
+    color: #c8c9ca;
+    line-height: 1.4em;
+    font-size: 17px;
+    width: 89%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.whychoose-text{
+    border: 1px solid ;
+    padding: 10px 0px;
+    border-style: none;
+    color: #FB5B21;
+}
+
+ */
 
 
 
@@ -283,12 +325,18 @@ background-color: #F6F7F9;
 
 
 
+@media  ( max-width:600px ) {
 
-@media  ( max-width:400px ) {
+    *{
+        /* border: 1px solid rgb(160, 156, 156); */
+    }
+
     body{
         width: 100%;
-        position: fixed;
     }
+    header{
+    width: 100%;
+}
 
     .nav-bar{
         width: 100%;
@@ -299,7 +347,7 @@ background-color: #F6F7F9;
     }
 
     .nav-gymster{
-        width: 100%;
+        width: 90%;
         font-size: 20px;
         padding: 0;
         margin-top:20px;
@@ -320,7 +368,7 @@ background-color: #F6F7F9;
         border: 1px solid #FB5B21;
         cursor: pointer;
         border-radius: 4px;
-        /* margin-top: 0; */
+        margin-top: 10px;
         font-family: sans-serif;
         margin-left: 5px;
         text-align: center;
@@ -395,6 +443,110 @@ background-color: #F6F7F9;
        }
 
   
+    .first-sect{
+        /* margin-top: 100px; */
+        width: 100%;
+    }
+    .about-gymster {
+        display:flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 90%;
+        height: 1000px;
+        width: 100%;
+
+    }
+    
+    .about-gymster img{
+        width: 300px;
+        /* display: none; */
+        margin-left: 35px;
+    }
+
+    .about-gymster h3{
+        text-transform: uppercase;
+        color: #FB5B21;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 50;
+        margin-top: 10px;
+        width: 95%;
+        margin-left: 10px;
+        
+    }
+    
+    .about-gymster h2{
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #222429;
+        font-family: sans-serif;
+        margin-top: 10px;
+        width: 95%;
+        margin-left: 10px;
+    }
+    
+    #about-p1{
+        color: #686A6F;
+        font-size: 13px;
+        font-family: sans-serif;
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-weight: 700;
+        line-height: 1.4em;
+    }
+    
+    #about-p2{
+        color: #686A6F;
+        margin-left: 10px;
+        font-size: 14px;
+        font-family: sans-serif;
+        margin-top: 10px;
+        width: 100%;
+        line-height: 1.4em;
+        width: 95%;
+    }
+    
+    /* .about-us{
+        background-color: #222429;
+        color: white;
+        margin: auto;
+        padding: 40px;
+        margin-top: 10px;
+    }
+    
+    .about-h4{
+        color: white;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    #about-text{
+        border: 1px solid #FB5B21;
+        background-color: #FB5B21;
+        padding: 10px 90px;
+    }
+    
+    .about-us p{
+        color: #c8c9ca;
+        line-height: 1.4em;
+        font-size: 17px;
+        width: 89%;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+    
+    .whychoose-text{
+        border: 1px solid ;
+        padding: 10px 0px;
+        border-style: none;
+        color: #FB5B21;
+    } */
+    
 }     
 
 
