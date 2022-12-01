@@ -579,7 +579,7 @@ background-color: #F6F7F9;
         padding-bottom: 0;
 
     }   
-    .about-gymster {
+    .about-gymster { 
         display:flex;
         flex-direction: column;
         gap: 0px;
