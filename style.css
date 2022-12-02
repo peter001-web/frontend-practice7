@@ -192,7 +192,7 @@ background-color: #F6F7F9;
 }
 
 .first-sect{
-    /* margin-bottom: 200px; */
+    margin-bottom: 100px;
 }
 
 .about-gymster {
@@ -279,9 +279,139 @@ background-color: #F6F7F9;
     color: #FB5B21;
 } 
 
+
+.second-sect{
+    margin-bottom: 200px;
+    background-color: #222429;
+    padding-bottom: 100px;
+}
  
+.discount-page{
+    display: flex;
+    width: 95%;
+}
+
+.bodybuilding-text{
+    border: 1px solid #f4f5f877;
+    border-style: none;
+    background-image:linear-gradient(#F4F5F8 90%, white) ;
+    padding: 30px 1px;
+    margin-left: 50px;
+}
+
+.bodybuilding-text h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+.bodybuilding-text p{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    margin-top: 10px;
+    color: #686A6F;
+    line-height: 1.4em;
+    font-family: sans-serif;
+}
+
+.bodybuilding-text h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #FB5B21;
+}
 
 
+
+.weightlifting-text{
+    border: 1px solid #f4f5f877;
+    border-style: none;
+    background-image:linear-gradient(#F4F5F8 90%, white) ;
+    padding: 50px 1px;
+    margin-left: 50px;
+}
+
+.weightlifting-text h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+.weightlifting-text p{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    margin-top: 10px;
+    color: #686A6F;
+    line-height: 1.4em;
+    font-family: sans-serif;
+}
+
+.weightlifting-text h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #FB5B21;
+}
+
+
+
+.musclebuilding-text{
+    border: 1px solid #f4f5f877;
+    border-style: none;
+    background-image:linear-gradient(#F4F5F8 90%, white) ;
+    padding: 50px 1px;
+    margin-left: 50px;
+}
+
+.musclebuilding-text h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+.musclebuilding-text p{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    margin-top: 10px;
+    color: #686A6F;
+    line-height: 1.4em;
+    font-family: sans-serif;
+}
+
+.musclebuilding-text h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #FB5B21;
+}
+
+.summerdiscount-text h2{
+    font-size: 37px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.becomemember-text{
+    text-align: center;
+}
+
+.summerdiscount-text button{
+    margin-top: 20px;
+    border: 1px solid #FB5B21;
+    background-color: #FB5B21;
+    color: white;
+    padding:20px 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
 
 
 
@@ -444,8 +574,10 @@ background-color: #F6F7F9;
 
   
     .first-sect{
-        /* margin-top: 100px; */
+        margin-bottom: 10px;
         width: 100%;
+        padding-bottom: 0;
+
     }
     .about-gymster {
         display:flex;
@@ -454,6 +586,7 @@ background-color: #F6F7F9;
         width: 90%;
         height: 1000px;
         width: 100%;
+
 
     }
     
@@ -508,14 +641,17 @@ background-color: #F6F7F9;
         width: 95%;
     }
     
-     .about-us{
+     .about-us {
         background-color: #222429;
         color: white;
         margin: auto;
-        /* height: 200px; */
+        /* height: 00px; */
         margin-top: 10px;
         padding-top: 20px;
         padding-bottom: 20px;
+        border: 9px solid rgb(241, 18, 18);
+
+        
     }
     
     .about-h4{
@@ -552,6 +688,125 @@ background-color: #F6F7F9;
         font-size: 12px;
         color: #FB5B21;
     } 
+    
+
+
+    .second-sect{
+        margin-bottom: 100px;
+        background-color: #222429;
+        padding-bottom: 100px;
+        
+    }
+     
+    .discount-page{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 90%;
+        padding-top: 50px;
+    }
+    
+    .bodybuilding-text{
+        border: 1px solid #f4f5f877;
+        border-style: none;
+        background-image:linear-gradient(#F4F5F8 90%, white) ;
+        padding: 20px 1px;
+        margin-left: 50px;
+    }
+    
+    .bodybuilding-text h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .bodybuilding-text p{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        margin-top: 10px;
+        color: #686A6F;
+        line-height: 1.4em;
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+    
+    .bodybuilding-text h3{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-top: 20px;
+        color: #FB5B21;
+        font-size: 12px;
+    }
+
+    .weightlifting-text{
+        border: 1px solid #f4f5f877;
+        border-style: none;
+        background-image:linear-gradient(#F4F5F8 90%, white) ;
+        padding: 20px 1px;
+        margin-left: 50px;
+    }
+    
+    .weightlifting-text h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .weightlifting-text p{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        margin-top: 10px;
+        color: #686A6F;
+        line-height: 1.4em;
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+    
+    .weightlifting-text h3{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-top: 20px;
+        color: #FB5B21;
+        font-size: 12px;
+    }
+
+    .musclebuilding-text{
+        border: 1px solid #f4f5f877;
+        border-style: none;
+        background-image:linear-gradient(#F4F5F8 90%, white) ;
+        padding: 20px 1px;
+        margin-left: 50px;
+    }
+    
+    .musclebuilding-text h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .musclebuilding-text p{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        margin-top: 10px;
+        color: #686A6F;
+        line-height: 1.4em;
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+    
+    .musclebuilding-text h3{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-top: 20px;
+        color: #FB5B21;
+        font-size: 12px;
+    }
+
+
+    
     
 }     
 
