@@ -483,7 +483,6 @@ background-color: #F6F7F9;
         margin-top:20px;
         margin-left: 5px;
     }
-
     .nav-box2{
         font-size: 9px;
         margin-top: 10px;
@@ -583,7 +582,7 @@ background-color: #F6F7F9;
         flex-direction: column;
         gap: 0px;
         width: 90%;
-        height: 1000px;
+        /* height: 200px; */
         width: 100%;
     }
     
